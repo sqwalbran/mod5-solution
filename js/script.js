@@ -85,6 +85,7 @@ $ajaxUtils.sendGetRequest(
   homeHtmlUrl, function(responseText){
     document.querySelector("#main-content")
     .innerHTML = responseText;
+  };
   false);
   });
   // ***** <---- TODO: STEP 1: Substitute [...] ******
@@ -102,7 +103,7 @@ dc.loadMenuCategories = function () {
    
  dc.loadMenuItems = function (categoryShort) {
     showLoading("#main-content");
-    $ajaxUtils.sendGetRequest();
+    $ajaxUtils.sendGetRequest(
       menuItemsUrl + categoryShort,
       buildAndShowMenuItemsHTML;
  };
