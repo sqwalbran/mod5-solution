@@ -167,7 +167,7 @@ function buildAndShowCategoriesHTML (categories) {
 
 //   // return category object with that randomArrayIndex
 // return categories[randomArrayIndex];
- }
+// }
 
 
 
