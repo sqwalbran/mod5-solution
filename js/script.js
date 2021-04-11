@@ -144,13 +144,14 @@ showLoading("#main-content");
 
 
 // Given array of category objects, returns a random category object.
-// function chooseRandomCategory (categories) {
+function chooseRandomCategory (categories) {
 //   // Choose a random index into the array (from 0 inclusively until array length (exclusively))
-//  var randomArrayIndex = Math.floor(Math.random() * categories.length);
+var randomArrayIndex = Math.floor(Math.random() * categories.length);
 
 //   // return category object with that randomArrayIndex
-// return categories[randomArrayIndex];
-// }
+return categories[randomArrayIndex];
+  alert(categories[randomArrayIndex];
+ }
 
 
 
