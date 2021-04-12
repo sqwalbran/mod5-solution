@@ -150,7 +150,7 @@ var randomArrayIndex = Math.floor(Math.random() * categories.length);
 
 //   // return category object with that randomArrayIndex
 return categories[randomArrayIndex];
-  alert(categories[randomArrayIndex]);
+  consol.log (categories[randomArrayIndex]);
  }
 
 
